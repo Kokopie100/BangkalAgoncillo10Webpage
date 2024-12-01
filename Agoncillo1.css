@@ -1,0 +1,31 @@
+.header {
+	padding:13px;
+	background:linear-gradient(to right, #272B37, #EFEBDF, #C9A161);
+ 
+	text-align: center;
+}
+
+nav {
+	padding: 2em;
+	background-color: black;
+	font-size:40%;	
+}
+
+article {
+  background-image: url('');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  	margin-left:40%;
+	padding: 1em;
+	border: 5px;
+}
+
+aside {
+	float: left;
+	width: 30%;
+	margin: 0;
+	padding: 1em;
+    font-family: monotype corsiva;
+}
+
