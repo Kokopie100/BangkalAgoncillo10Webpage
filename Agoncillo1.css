@@ -5,6 +5,13 @@
 	text-align: center;
 }
 
+footer {
+	padding:13px;
+	background:linear-gradient(to right, #C9A161, #EFEBDF, #272B37) ;
+    clear:left;
+	text-align: center;
+}
+
 .Interface {
 	font-family: Times New Roman;
 	font-size: 25px;
