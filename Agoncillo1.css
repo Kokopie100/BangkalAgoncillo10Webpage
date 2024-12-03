@@ -1,6 +1,6 @@
 .header {
 	padding:13px;
-	background:#272B37 ;
+	background:;
     clear:left;
 	text-align: center;
 	text-color:#EFEBDF;
@@ -8,7 +8,7 @@
 
 footer {
 	padding:13px;
-	background:#EFEBDF ;
+	background:;
     clear:left;
 	text-align: center;
 }
@@ -25,7 +25,7 @@ footer {
 		text-shadow: 2px 2px 5px black;
 }
 nav {
-	background:linear-gradient(to right, #C9A161, #EFEBDF, #272B37);
+	background:
 	padding: 12px;
 	height:20px;
 	background-color: #b2b2b2;
@@ -33,7 +33,7 @@ nav {
 }
 
 article {
-  background-image: url('Background3.jpg');
+  background-image: url('');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
