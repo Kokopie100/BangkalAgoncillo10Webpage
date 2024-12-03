@@ -42,16 +42,6 @@ article {
 	background:#EFEBDF;
 }
 
-aside {
-	
-	float: left;
-	width: 30%;
-	margin: 0;
-	padding: 1em;
-    font-family: monotype corsiva;
-        
-} 
-
 
 /* Adds #272B37 background color to the top navigation */
 .topnav {
