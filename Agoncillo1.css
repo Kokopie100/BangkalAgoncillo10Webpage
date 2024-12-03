@@ -29,10 +29,11 @@ footer {
 		text-shadow: 2px 2px 5px black;
 }
 nav {
-	background:
+	background:#C9A161;
 	padding: 12px;
 	height:20px;
 	font-size:40%;	
+	color:#EFEBDF;
 }
 
 article {
