@@ -61,7 +61,7 @@ aside {
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: center;
+  float: left;
   color: #f2f2f2;
   text-align: center;
   padding: 10px 12px;
