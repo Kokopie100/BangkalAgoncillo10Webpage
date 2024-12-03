@@ -49,9 +49,12 @@ article {
 }
 
 aside {
+	background:#C9A161;
 	float: left;
 	width: 30%;
 	margin: 0;
 	padding: 1em;
     font-family: monotype corsiva;
+        text-align: center;
+	 
 }
