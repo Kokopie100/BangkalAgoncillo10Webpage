@@ -55,7 +55,7 @@ aside {
 
 .topnav {
   background-color: #272B37;
-  
+	overflow: hidden;  
 }
 
 
