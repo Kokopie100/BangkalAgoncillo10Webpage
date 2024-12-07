@@ -74,12 +74,10 @@ li a:hover {
 }
 
 .active {
-  background-color: #4CAF50;
+ background-color: #C9A161;
+	color: #272B37;
 }
 
-.always {
-  background-color: #C9A161;
-	color: #272B37;
 }
 
 #navbar {
