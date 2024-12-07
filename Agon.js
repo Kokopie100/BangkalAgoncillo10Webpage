@@ -1,28 +1,28 @@
-/* Slide show - Start */
-var images = document.getElementById("image-container").children;
-var index = 0;
+let slideIndex = 1;
+showSlides(slideIndex);
 
-function fadeImages() {
-  var nextIndex = (index + 1) % images.length;
-  var currentImage = images[index];
-  var nextImage = images[nextIndex];
-
-  currentImage.style.opacity = 1;
-
-  var opacity = 0;
-  var interval = setInterval(function() {
-    opacity += 0.05;
-    nextImage.style.opacity = opacity;
-    currentImage.style.opacity = 1 - opacity;
-    if (opacity >= 1) {
-      clearInterval(interval);
-      currentImage.style.display = "none";
-      nextImage.style.display = "block";
-      index = nextIndex;
-      setTimeout(fadeImages, 5000);
-    }
-  }, 50);
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
 }
 
-fadeImages();
-/* Slide show - END */
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
