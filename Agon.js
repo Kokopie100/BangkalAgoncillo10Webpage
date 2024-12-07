@@ -1,12 +1,28 @@
+/* Slide show - Start */
 var images = document.getElementById("image-container").children;
-let i = images.length-1;
-var interval = setInterval(function(){
-  //increase opacity of current image
-  if(images[i].style.opacity){
-    images[i].style.opacity-=1/50;
-  } else images[i].style.opacity = 1.0;
-  //if current image invisble then works with next
-  if(images[i].style.opacity<=0)i--;
-  //if last then stop interval
-  if(i==-1)clearInterval(interval)
-},50);
+var index = 0;
+
+function fadeImages() {
+  var nextIndex = (index + 1) % images.length;
+  var currentImage = images[index];
+  var nextImage = images[nextIndex];
+
+  currentImage.style.opacity = 1;
+
+  var opacity = 0;
+  var interval = setInterval(function() {
+    opacity += 0.05;
+    nextImage.style.opacity = opacity;
+    currentImage.style.opacity = 1 - opacity;
+    if (opacity >= 1) {
+      clearInterval(interval);
+      currentImage.style.display = "none";
+      nextImage.style.display = "block";
+      index = nextIndex;
+      setTimeout(fadeImages, 5000);
+    }
+  }, 50);
+}
+
+fadeImages();
+/* Slide show - END */
