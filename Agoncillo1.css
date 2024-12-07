@@ -77,6 +77,11 @@ li a:hover {
   background-color: #4CAF50;
 }
 
+.always {
+  background-color: #C9A161;
+	color: #272B37;
+}
+
 #navbar {
   background-color: #333; /* Black background color */
   position: fixed; /* Make it stick/fixed */
