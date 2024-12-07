@@ -54,7 +54,7 @@ ul {
   background-color: #272B37;
   position: fixed;
   top: 0;
-  width: 50%;
+  width: 100%;
 }
 
 li {
@@ -65,12 +65,12 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 10px 16px;
+  padding: 12px 14px;
   text-decoration: none;
 }
 
 li a:hover {
-  background-color: #111;
+  background-color: #EFEBDF;
 }
 
 .active {
