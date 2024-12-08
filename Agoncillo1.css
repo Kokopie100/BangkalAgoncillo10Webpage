@@ -72,3 +72,24 @@ ul {
   top: 0;
   width: 99%;
 }
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 13px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #EFEBDF;
+}
+
+.active {
+ background-color: #C9A161;
+	color: #272B37;
+}
