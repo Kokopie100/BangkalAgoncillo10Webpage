@@ -102,3 +102,10 @@ li a:hover {
   background-color: #ddd;
   color: black;
 }
+
+aside {
+  padding-left: 15px;
+  margin-left: 15px;
+  float: left;
+  font-style: italic;
+}
