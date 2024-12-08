@@ -18,6 +18,10 @@ h2{
 	float:left;
 }
 
+img{
+	float:right;
+}
+
 footer {
 	padding:13px;
 	background-color: #272B37;
