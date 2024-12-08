@@ -65,7 +65,7 @@ article {
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 13px;
+  padding: 0;
   overflow: hidden;
   background-color: #272B37;
    position: fixed;
