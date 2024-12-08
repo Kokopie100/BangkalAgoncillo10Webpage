@@ -102,3 +102,9 @@ li a:hover {
   color: black;
 }
 
+img {
+    float:left;
+}
+h3 {
+    float:right;
+}
