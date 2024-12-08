@@ -65,8 +65,9 @@ article {
 }
 
 
-body {
+body, html {
   font-size: 28px;
+  height: 100%;
 }
 
 ul {
@@ -130,8 +131,7 @@ li a:hover {
 body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: none}
 img {vertical-align: middle;
-     width: 500px;
-     height: 100px;
+     height: 100%;
 }
 
 /* Slideshow container */
