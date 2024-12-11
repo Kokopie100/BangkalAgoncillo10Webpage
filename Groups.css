@@ -6,13 +6,7 @@
 	}
 
 p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    unicode-bidi: isolate;
-    font-size: 30px;
+     font-size: 30px;
 }
 
 h1{
@@ -84,15 +78,12 @@ body, html {
 ul {
   list-style-type: none;
   margin: 0;
+  padding: 0;
   overflow: hidden;
   background-color: #272B37;
   position: fixed;
   top: 0;
-  width: 99%;
-  font-size: 25px;
-  padding: 1.2em;
-  word-spacing: 4em;
-  text-align: center;
+  width: 55.95em;
 }
 
 li {
@@ -128,12 +119,9 @@ li a:hover {
 }
 
 .yc {
-    width: 400px;
-    height: 300px;
-    position: wrap;
+    width: 500px;
+    height: 400px;
     float: left;
-    left: 20px;
-    padding-top: 100px;
-    padding-left: 40px;
+    padding-left: 50px;
     margin-right: 10px;
 }
