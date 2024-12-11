@@ -75,38 +75,15 @@ body, html {
   font-size: 28px;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 13px;
-  overflow: hidden;
-  background-color: #272B37;
-  position: fixed;
-  top: 0;
-  width: 100%;
+nav {
+    font-size: 25px;
+    border-bottom: 1px solid grey;
+    padding: 1.2em;
+    word-spacing: 4em;
+    text-align: center;
+	background-color: #272B37;
+	textcolor: #C9A161;
 }
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 10px 12px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #EFEBDF;
-}
-
-.active {
- background-color: #C9A161;
-	color: #272B37;
-}
-
 
 * {box-sizing: border-box}
 .mySlides {display: none}
