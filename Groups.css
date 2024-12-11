@@ -24,8 +24,9 @@ h2{
 
 }
 
-img{
-	float:right;
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
 }
 
 footer {
@@ -111,4 +112,14 @@ li a:hover {
   color: black;
 }
 
+.cvd {
+    width: 400px;
+    height: 600px;
+    position: wrap;
+    float: left;
+    left: 20px;
+    padding-top: 180px;
+    padding-left: 80px;
+    margin-right: 10px;
+}
 
