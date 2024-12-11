@@ -3,8 +3,7 @@
 	background:#272B37;
     clear:left;
 	text-align: center;
-	
-}
+	}
 
 p {
     display: block;
@@ -19,9 +18,20 @@ h1{
 	color:#C9A161;
 }
 
-h2{
-	float:left;
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
 
+article {
+    text-align: justify;
+    padding: 1em;
 }
 
 img {
@@ -47,8 +57,18 @@ footer {
 		text-shadow: 2px 2px 5px black;
 }
 
-	
-}
+hr {
+    display: block;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    unicode-bidi: isolate;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}	
+
 
 
 body, html {
