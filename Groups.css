@@ -69,7 +69,9 @@ hr {
     border-width: 1px;
 }	
 
-
+hr.break{
+	1px dashed #272B37
+}
 
 body, html {
   font-size: 28px;
