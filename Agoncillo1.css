@@ -5,17 +5,6 @@
 	text-align: center;
 	}
 
-p { 
-	font-size: 20px;
-}
-
-.header {
-	padding:13px;
-	background:#272B37;
-    clear:left;
-	text-align: center;
-	}
-
 p {
     display: block;
     margin-block-start: 1em;
@@ -116,26 +105,6 @@ li a:hover {
 .active {
  background-color: #C9A161;
 	color: #272B37;
-}
-
-
-
-#navbar {
-  background-color: #333; /* Black background color */
-  position: fixed; /* Make it stick/fixed */
-  top: 0; /* Stay on top */
-  width: 100%; /* Full width */
-  transition: top 0.3s; /* Transition effect when sliding down (and up) */
-}
-
-/* Style the navbar links */
-#navbar a {
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 15px;
-  text-decoration: none;
 }
 
 
