@@ -1,16 +1,24 @@
 .header {
 	padding:13px;
 	background:#272B37;
-    clear:left;
+        clear:left;
 	text-align: center;
+        height: 140px;
+        color: #EFEBDF;
 	}
+
 
 p {
      font-size: 30px;
 }
 
-h1{
-	color:#C9A161;
+h1{	
+    padding-top: 10px;
+    font-family: 'Brush Script MT';
+    color: #EFEBDF;
+    height: 90px;
+    font-size: 75px;
+    padding-bottom: 10px;
 }
 
 p, h1 {
@@ -19,7 +27,7 @@ p, h1 {
 }
 
 h2 {
-    display: block;
+  display: block;
     font-size: 1.5em;
     margin-block-start: 0.83em;
     margin-block-end: 0.83em;
@@ -28,11 +36,13 @@ h2 {
     font-weight: bold;
     unicode-bidi: isolate;
     font-family: georgia;
+    text-align: center;
 }
 
 article {
     text-align: justify;
     padding: 1em;
+	padding-top: 15px;
 }
 
 img {
@@ -70,10 +80,6 @@ hr {
     border-width: 1px;
 }	
 
-hr.break{
-	3px dashed #272B37;
-}
-
 body, html {
   font-size: 28px;
 }
@@ -86,9 +92,12 @@ ul {
   background-color: #272B37;
   position: fixed;
   top: 0;
-  width: 100%;
-	padding-left: 300px;
-    padding-right: 300px;
+  padding-left: 300px;
+  padding-right: 300px;
+  width: 2000px;
+  height: 50px;
+  right: 0px;
+  left: 0px;
 }
 
 li {
@@ -128,5 +137,9 @@ li a:hover {
     height: 400px;
 
 .lml{
-	font-family: impact;
+    margin-bottom:="" 0px";
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: impact;
+    FONT-SIZE: 120PX;
 }
