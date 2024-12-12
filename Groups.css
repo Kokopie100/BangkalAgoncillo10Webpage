@@ -86,6 +86,8 @@ ul {
   position: fixed;
   top: 0;
   width: 100%;
+	padding-left: 300px;
+    padding-right: 300px;
 }
 
 li {
