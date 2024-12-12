@@ -6,20 +6,17 @@
 	}
 
 p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    unicode-bidi: isolate;
+     font-size: 30px;
 }
 
 h1{
 	color:#C9A161;
 }
 
-h1 .lml{
-	font-size: 150px;
+p, h1 {
+    margin-left: 50px;
+    margin-right: 50px;
+}
 
 h2 {
     display: block;
@@ -72,7 +69,9 @@ hr {
     border-width: 1px;
 }	
 
-
+hr.break{
+	3px dashed #272B37;
+}
 
 body, html {
   font-size: 28px;
@@ -87,6 +86,8 @@ ul {
   position: fixed;
   top: 0;
   width: 100%;
+	padding-left: 300px;
+    padding-right: 300px;
 }
 
 li {
@@ -105,4 +106,23 @@ li a:hover {
   background-color: #EFEBDF;
 }
 
+.active {
+ background-color: #C9A161;
+	color: #272B37;
+}
+
+.cvd {
+    width: 400px;
+    height: 600px;
+    position: wrap;
+    float: left;
+    left: 20px;
+    padding-top: 10px;
+    padding-left: 80px;
+    margin-right: 10px;
+}
+
+.yc {
+    width: 500px;
+    height: 400px;
 
