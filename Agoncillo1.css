@@ -27,6 +27,7 @@ h2 {
     margin-inline-end: 0px;
     font-weight: bold;
     unicode-bidi: isolate;
+    font-family: georgia;
 }
 
 article {
@@ -126,3 +127,6 @@ li a:hover {
     width: 500px;
     height: 400px;
 
+.lml{
+	font-family: impact;
+}
