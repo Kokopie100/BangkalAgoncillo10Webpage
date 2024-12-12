@@ -15,7 +15,7 @@ p {
 h1{	
     padding-top: 10px;
     font-family: 'Brush Script MT';
-    color: #272B37;
+    color: #EFEBDF;
     height: 90px;
     font-size: 75px;
     padding-bottom: 10px;
@@ -142,4 +142,5 @@ li a:hover {
     margin-bottom: 0px;
     font-family: impact;
     FONT-SIZE: 120PX;
+    color:#272B37;
 }
